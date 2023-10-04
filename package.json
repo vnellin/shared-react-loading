@@ -1,0 +1,25 @@
+{
+  "name": "react-loading",
+  "type": "module",
+  "version": "1.0.0",
+  "source": "src/loading.js",
+  "description": "Full Screen Loading Indicator Spinner",
+  "exports": {
+    "default": "./dist/loading.modern.js"
+  },
+  "main": "./dist/loading.cjs",
+  "module": "./dist/loading.module.js",
+  "unpkg": "./dist/loading.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "author": "Valentin Nellin",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "dependencies": {
+    "sass": "^1.68.0"
+  }
+}
