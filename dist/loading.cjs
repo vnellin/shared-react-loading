@@ -1,0 +1,2 @@
+require("react");var e=require("prop-types");function r(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var n={main:"_Lxt-w",spinner:"_ikeoN",spinner3:"_XO0jS",full:"_dE6HZ","theme-dark":"_8D7Lp"};function t(e){return h("div",{className:n.main+(e.fullScreen?" "+n.full:"")+(e.theme?" "+n["theme-"+e.theme]:"")},h("div",{className:n.spinner}))}t.propTypes={fullScreen:/*#__PURE__*/r(e).default.bool},module.exports=t;
+//# sourceMappingURL=loading.cjs.map
